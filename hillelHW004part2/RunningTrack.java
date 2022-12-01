@@ -12,9 +12,10 @@ public class RunningTrack extends Obstacle {
     public void overcome(int maxRun, int maxJump) {
 
         if (maxRun >= length){
-            System.out.println("overcome running track");
+            System.out.println("overcome running track at distance " + length + "m.");
         } else {
-            System.out.println("can`t overcome running track");
+            System.out.println("can`t overcome running track at distance " + length + "m."   +
+                    " Could only " + maxRun + "m.");
         }
     }
 

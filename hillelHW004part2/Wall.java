@@ -12,9 +12,9 @@ public class Wall extends Obstacle {
     public void overcome(int maxRun, int maxJump) {
 
         if (maxJump >= height){
-            System.out.println("overcome wall");
+            System.out.println("overcome wall at height " + height + "m.");
         } else {
-            System.out.println("can`t overcome wall");
+            System.out.println("can`t overcome wall at height " + height + "m." + " Could only " + maxJump + "m.");
         }
     }
 
