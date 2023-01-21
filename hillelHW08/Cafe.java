@@ -1,4 +1,4 @@
-package Lesson9;
+package hillelHW08;
 
 public class Cafe {
     private String name;
