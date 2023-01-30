@@ -1,4 +1,4 @@
-package hillelHW14;
+package hillelHW14or16;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -16,9 +16,9 @@ public class SixTask {
         String answer = sc.next().toLowerCase();
         while (!rndWord.equals(answer)) {
 
-//            taskWithStar1(rndWord,answer);
-   //         System.out.println(taskWithStar2(rndWord, answer));
-            System.out.println(taskWithStar3(rndWord, answer));
+            taskWithStar1(rndWord,answer);
+//            System.out.println(taskWithStar2(rndWord, answer));
+//            System.out.println(taskWithStar3(rndWord, answer));
 
             System.out.println("------------------");
             System.out.println("  Try again ! ");

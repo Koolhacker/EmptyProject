@@ -1,4 +1,4 @@
-package hillelHW14;
+package hillelHW14or16;
 
 public class PracticeString {
     public static void main(String[] args) {
