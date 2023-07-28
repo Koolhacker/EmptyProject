@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class ArrayInvert1 {
     public static void main(String[] args) {
+
+//     Object
         testInvert(new int[]{});
         testInvert(new int[]{0});
         testInvert(new int[]{0, 1, 2, 3,4});
@@ -22,5 +24,6 @@ public class ArrayInvert1 {
             array[i] = array[array.length - i -1];
             array[array.length - i - 1] = temp;
         }
+
     }
 }
