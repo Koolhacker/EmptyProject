@@ -13,6 +13,7 @@ public class Map1 {
         System.out.println(passportAndName);
         System.out.println(passportAndName.keySet());
         System.out.println(passportAndName.values());
+//        System.out.println(passportAndName.get());
 
     }
 }
