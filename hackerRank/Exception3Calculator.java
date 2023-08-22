@@ -10,7 +10,6 @@ class Calculator {
     }
 }
 
-
     public class Exception3Calculator{
 
         public static void main(String[] args) {
